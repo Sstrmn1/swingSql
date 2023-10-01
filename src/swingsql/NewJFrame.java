@@ -17,6 +17,12 @@ public class NewJFrame extends javax.swing.JFrame {
     /**
      * Creates new form NewJFrame
      */
+    public static final String username = "root";
+    public static final String password = "altocard";
+    public static final String dataConn = "jdbc:mysql://localhost:3306/connector";
+
+//    Connection sqlConn = null;
+
     public NewJFrame() {
         initComponents();
     }
